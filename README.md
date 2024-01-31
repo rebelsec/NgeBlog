@@ -6,7 +6,7 @@
 
 To see this theme in action, here is a live demo site which is rendered with **NgeBlog** theme.
 
-## Why choose NgeBlog a.k.a Goblok
+## Why choose NgeBlog
 
 NgeBlog theme a minimalistic, simple, and elegant design for a blog built with Hugo has several advantages:
 
