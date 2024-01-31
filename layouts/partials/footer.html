@@ -1,0 +1,26 @@
+<div class="mx-auto max-w-3xl p-4 text-left lg:p-10">
+  <div class="mb-8 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <h2 class="text-sm text-gray-900 dark:text-white">Powered by</h2>
+      {{ range $social := slice (dict "url" "https://gohugo.io/" "icon"
+      "/social/hugo.svg" "title" "Hugo") (dict "url" "https://www.github.com/"
+      "icon" "/social/github.svg" "title" "GitHub") }}
+      <a href="{{ $social.url }}" target="_blank" title="{{ $social.title }}">
+        <img
+          loading="lazy"
+          class="h-8 w-8 rounded-xl dark:bg-slate-200"
+          src="{{ $social.icon }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          alt="{{ $social.title }}"
+          decoding="async"
+          rel="image"
+        />
+      </a>
+      {{ end }}
+    </div>
+    <div class="flex items-center gap-2">{{ partial "social.html" . }}</div>
+  </div>
+</div>
+
+{{ partialCached "head/js.html" . }}

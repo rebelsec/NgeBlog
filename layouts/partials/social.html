@@ -1,0 +1,11 @@
+{{ with .Site.Params.social }} {{ range $network, $link := . }} {{ if ne $link
+"" }}
+<a href="{{ $link }}" target="_blank" class="">
+  <img
+    class="h-8 w-8 rounded-xl dark:bg-slate-200"
+    src="/social/{{ $network | lower }}.svg"
+    decoding="async"
+    rel="image"
+  />
+</a>
+{{ end }} {{ end }} {{ end }}

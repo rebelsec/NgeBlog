@@ -1,0 +1,15 @@
+{{ $image := .Get "src" }} {{ $alt := .Get "alt" }} {{ $caption := .Get
+"caption" }}
+
+<figure class="figure" itemscope itemtype="http://schema.org/ImageObject">
+  <img
+    src="{{ $image }}"
+    alt="{{ $alt }}"
+    class="figure-img img-fluid"
+    title="{{ $alt }}"
+    itemprop="contentUrl"
+  />
+  {{ with $caption }}
+  <figcaption class="figure-caption" itemprop="description">{{ . }}</figcaption>
+  {{ end }}
+</figure>

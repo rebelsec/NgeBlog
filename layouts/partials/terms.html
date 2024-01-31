@@ -1,0 +1,15 @@
+{{- $page := .page }} {{- $taxonomy := .taxonomy }} {{ with $page.GetTerms
+$taxonomy }} {{ if gt (len .) 0 }} {{ $label := (index . 0).Parent.LinkTitle }}
+<div>
+  <ul class="list-none py-4">
+    {{ range . }}
+    <a
+      rel="tag"
+      class="rounded-md bg-slate-100 p-1 px-2 text-base font-medium hover:bg-blue-100/25 hover:text-blue-600 dark:bg-slate-700 dark:hover:bg-slate-600 dark:hover:text-white"
+      href="{{ .RelPermalink }}"
+      >#{{ .LinkTitle }}</a
+    >
+    {{ end }}
+  </ul>
+</div>
+{{ end }} {{ end }}

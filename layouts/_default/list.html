@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="mx-auto max-w-3xl p-4 text-left">
+  {{ partial "taxonomies.html" . }} {{ if eq .Section "posts" }}
+  <h2 class="my-5 text-3xl font-bold">
+    Tulisan {{ .Site.Params.Author.name }} ✍️
+  </h2>
+  {{ end }}
+
+  <div class="grid grid-cols-1 gap-4">
+    {{ range where .Pages "Section" "posts" }}
+    <div
+      class="flex items-center gap-4 rounded-2xl bg-white p-6 shadow-md hover:shadow-lg dark:bg-slate-800"
+    >
+      <div class="h-20 w-20 shrink-0 md:h-36 md:w-36">
+        <a href="{{ .RelPermalink }}" class="inline-block h-full w-full">
+          <picture
+            ><img
+              loading="lazy"
+              class="h-auto w-full rounded-xl dark:brightness-75"
+              src="{{ with .Params.thumbnail }}{{ . }}{{ else }}/img/no-image.svg{{ end }}"
+              alt="{{ .Title }}"
+              decoding="async"
+              rel="image"
+          /></picture>
+        </a>
+      </div>
+      <div class="grow">
+        <h2 class="mb-2 line-clamp-2 text-xl font-bold tracking-tight">
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </h2>
+        {{ $dateHuman := .Date | time.Format ":date_long" }}
+        <p class="text-sm font-light">{{ $dateHuman }}</p>
+        <p class="line-clamp-3 text-sm">{{ .Summary }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}
