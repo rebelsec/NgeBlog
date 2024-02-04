@@ -4,10 +4,11 @@
   dir="{{ or site.Language.LanguageDirection `ltr` }}"
 >
   <head>
-    {{ partialCached "head.html" . }}
+    {{ partial "head.html" . }}
     <!-- CSS -->
     {{ partialCached "head/css.html" . }}
   </head>
+
   <body
     class="break-words bg-slate-50 text-slate-800 transition-colors dark:bg-slate-900 dark:text-white"
   >

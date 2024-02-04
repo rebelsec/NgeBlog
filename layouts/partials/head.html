@@ -31,8 +31,8 @@
     />
 
     <title>
-      {{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title
-      }}{{ end }}
+      {{ if .IsHome }} Rebelsec : {{ .Site.Params.Description }} {{ else }} {{
+      .Title }} {{ end }}
     </title>
   </head>
   <body></body>
