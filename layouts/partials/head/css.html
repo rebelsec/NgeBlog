@@ -1,6 +1,6 @@
 {{ $styles := resources.Get "css/main.css" | postCSS }} {{ if hugo.IsServer }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
-{{ else }} {{ $styles := $styles | minify | fingerprint | resources.PostProcess
+{{ else }} {{ $styles = $styles | minify | fingerprint | resources.PostProcess
 }}
 <link
   rel="stylesheet"
@@ -8,4 +8,3 @@
   integrity="{{ $styles.Data.Integrity }}"
 />
 {{ end }}
-<script src="https://cdn.tailwindcss.com"></script>
