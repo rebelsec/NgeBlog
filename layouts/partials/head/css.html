@@ -1,7 +1,2 @@
-{{ $styles := resources.Get "css/main.css" | postCSS }} {{ $styles = $styles |
-minify | fingerprint | resources.PostProcess }}
-<link
-  rel="stylesheet"
-  href="{{ $styles.RelPermalink }}"
-  integrity="{{ $styles.Data.Integrity }}"
-/>
+{{ $styles := resources.Get "css/main.css" | postCSS }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
