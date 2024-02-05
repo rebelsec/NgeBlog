@@ -1,39 +1,29 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="{{ .Site.Params.Description }}" />
-    <meta name="keywords" content="{{ .Site.Params.Keywords }}" />
-    <meta name="author" content="{{ .Site.Author.name }}" />
-    <!-- Open Graph meta tags for better social sharing -->
-    <meta property="og:title" content="{{ .Title }}" />
-    <meta property="og:description" content="{{ .Site.Params.Description }}" />
-    <meta property="og:image" content="{{ .Site.BaseURL }}favicon.ico" />
-    <meta property="og:url" content="{{ .Permalink }}" />
-    <meta
-      property="og:type"
-      content="{{ if .IsPage }}article{{ else }}website{{ end }}"
-    />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="{{ .Site.Params.Description }}" />
+<meta name="keywords" content="{{ .Site.Params.Keywords }}" />
+<meta name="author" content="{{ .Site.Author.name }}" />
+<!-- Open Graph meta tags for better social sharing -->
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ .Site.Params.Description }}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}favicon.ico" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta
+  property="og:type"
+  content="{{ if .IsPage }}article{{ else }}website{{ end }}"
+/>
 
-    <!-- Twitter Card meta tags for better Twitter sharing -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="{{ .Site.Author.twitter }}" />
-    <meta name="twitter:title" content="{{ .Title }}" />
-    <meta name="twitter:description" content="{{ .Site.Params.Description }}" />
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}favicon.ico" />
+<!-- Twitter Card meta tags for better Twitter sharing -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{{ .Site.Author.twitter }}" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ .Site.Params.Description }}" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}favicon.ico" />
 
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="{{ .Site.BaseURL }}favicon.ico"
-      type="image/x-icon"
-    />
+<!-- Favicon -->
+<link rel="icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon" />
 
-    <title>
-      {{ if .IsHome }} Rebelsec : {{ .Site.Params.Description }} {{ else }} {{
-      .Title }} {{ end }}
-    </title>
-  </head>
-  <body></body>
-</html>
+<title>
+  {{ if .IsHome }} Rebelsec : {{ .Site.Params.Description }} {{ else }} {{
+  .Title }} {{ end }}
+</title>
