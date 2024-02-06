@@ -2,7 +2,7 @@
 
 > **NgeBlog** is a **Minimalist** , **clean**, and **elegant** blog theme for [Hugo](https://gohugo.io/).
 
-![Hugo Theme LoveIt](https://github.com/rebelsec/NgeBlog/raw/master/images/Devices-Preview.png)
+![Hugo Theme NgeBlog](https://github.com/rebelsec/NgeBlog/raw/main/images/Devices-Preview.png)
 
 ## Demo Site
 
