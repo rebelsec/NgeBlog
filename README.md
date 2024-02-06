@@ -105,4 +105,4 @@ Thanks to the authors of following resources included in the theme:
 
 Thanks! ❤️
 
-[![Stargazers over time](https://starchart.cc/NgeBlog.svg?variant=adaptive)](https://starchart.cc/NgeBlog)
+[![Stargazers over time](https://starchart.cc/rebelsec/NgeBlog.svg?variant=adaptive)](https://starchart.cc/rebelsec/NgeBlog)
