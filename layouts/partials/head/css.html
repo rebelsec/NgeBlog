@@ -1,3 +1,10 @@
-{{ with resources.Get "css/main.css" | postCSS }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ $styles := resources.Get "css/main.css" | postCSS }} {{ if .Site.IsServer }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+{{ else }} {{ $styles := $styles | minify | fingerprint | resources.PostProcess
+}}
+<link
+  rel="stylesheet"
+  href="{{ $styles.RelPermalink }}"
+  integrity="{{ $styles.Data.Integrity }}"
+/>
 {{ end }}
