@@ -2,6 +2,8 @@
 
 > **NgeBlog** is a **Minimalist** , **clean**, and **elegant** blog theme for [Hugo](https://gohugo.io/).
 
+![Hugo Theme LoveIt](https://github.com/rebelsec/NgeBlog/raw/master/images/Devices-Preview.png)
+
 ## Demo Site
 
 To see this theme in action, here is a live demo site which is rendered with **NgeBlog** theme.
@@ -76,7 +78,7 @@ To use this theme, set the `theme` variable in your site's `config.toml` to `hug
 
 ## Questions, ideas, bugs, pull requests
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/dillonzq/LoveIt/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/rebelsec/NgeBlog/issues).
 
 ## License
 
@@ -88,6 +90,7 @@ Thanks to the authors of following resources included in the theme:
 
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Font Awesome](https://fontawesome.com/)
+- [Alpine.js](https://alpinejs.dev/)
 
 ## Author
 
