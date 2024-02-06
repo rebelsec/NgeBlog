@@ -4,24 +4,21 @@
 
 ![Hugo Theme NgeBlog](https://github.com/rebelsec/NgeBlog/raw/main/images/Devices-Preview.png)
 
-## Demo Site
+## [Demo Site](https://www.rebelsec.id)
 
-To see this theme in action, here is a live demo site which is rendered with **NgeBlog** theme.
+To see this theme in action, here is a [live demo](https://www.rebelsec.id) site which is rendered with **NgeBlog** theme.
 
 ## Why choose NgeBlog
 
 NgeBlog theme a minimalistic, simple, and elegant design for a blog built with Hugo has several advantages:
 
-- Content Focus: "NgeBlog" prioritizes content, ensuring distraction-free engagement.
+- Tailwind CSS: Using Tailwind CSS.
 - Fast Loading: Simple design for quick loading across devices.
 - Readability: Clear layouts and typography enhance reading comfort.
 - Timeless Aesthetics: Minimalistic and elegant for a modern, professional look.
 - Mobile Responsiveness: Adapts seamlessly to various screen sizes.
-- Easy Maintenance: Minimalism for straightforward upkeep, focusing on quality content.
-- Adaptability: Accommodates changes, providing a flexible foundation for growth.
-- Reduced Cognitive Load: Clutter-free design for effortless navigation.
-  Professional Impression: Minimalism conveys professionalism and sophistication.
 - Customization: "NgeBlog" allows personalization of colors, fonts, and layout elements.
+- etc.
 
 In short,
 
