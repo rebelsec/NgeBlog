@@ -36,7 +36,7 @@ In short,
 - <b>[Yandex Metrica](https://metrica.yandex.com/)</b> supported
 - Search engine **verification** supported (Google, Bind, Yandex and Baidu)
 - **CDN** for third-party libraries supported
-- Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
+- Automatically converted images with **Lazy Load** by Native Lazy Loading
 
 ### Appearance and Layout
 
