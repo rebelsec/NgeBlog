@@ -80,7 +80,7 @@ All feedback is welcome! Head over to the [issue tracker](https://github.com/dil
 
 ## License
 
-LoveIt is licensed under the **MIT** license. Check the [LICENSE file]() for details.
+LoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/rebelsec/NgeBlog/blob/master/LICENSE) for details.
 
 ## Special Thanks
 
@@ -93,14 +93,6 @@ Thanks to the authors of following resources included in the theme:
 
 [Galatia Sijabat](https://rebelsec.id)
 
-## Sponsor
-
-If you enjoy the theme, please consider buying me a coffee ☕️.
-
-- [PayPal]()
-
 Thanks! ❤️
 
-## Stargazers over time
-"# ngeblog" 
-"# NgeBlog" 
+[![Stargazers over time](https://starchart.cc/rebelsec/NgeBlog.svg?variant=adaptive)](https://starchart.cc/rebelsec/NgeBlog)
