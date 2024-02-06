@@ -1,17 +1,15 @@
 {{ define "main" }}
 <!-- Bio start-->
 <div class="mx-auto max-w-3xl p-4 py-10 text-left">
-  <h2 class="mb-2 text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl">
+  <h2 class="mb-2 text-3xl font-bold">
     Hai, Saya {{ .Site.Params.Author.name }} 👋
   </h2>
-  <p
-    class="mb-3 text-lg text-slate-500 dark:text-slate-400 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
-  >
+  <p class="mb-3 text-lg text-slate-500 dark:text-slate-400">
     {{ .Site.Params.Author.disclaimer | safeHTML }}
   </p>
   <a
     href="/about/"
-    class="inline-flex items-center text-base text-sky-600 hover:text-sky-800 hover:underline dark:text-sky-400 dark:hover:text-sky-700 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
+    class="inline-flex items-center text-sky-600 hover:text-sky-800 hover:underline dark:text-sky-400 dark:hover:text-sky-700"
   >
     Selengkapnya tentang {{ .Site.Params.Author.name }}
     <svg
@@ -31,12 +29,11 @@
     </svg>
   </a>
 </div>
-
 <!-- Bio end-->
 <!-- Post Start -->
 <div class="mx-auto max-w-3xl p-4 py-10 text-left">
   <div class="mb-8 flex items-center justify-between">
-    <h2 class="mb-4 text-3xl font-bold text-slate-900 dark:text-white sm:mb-0">
+    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">
       Tulisan Terbaru
     </h2>
     <a
@@ -63,26 +60,20 @@
   </div>
   {{ range first 6 .Paginator.Pages }}
   <ul class="list-none dark:brightness-75">
-    <a
-      href="{{ .RelPermalink }}"
-      class="inline-flex items-start gap-4 py-2 sm:block md:flex"
-    >
+    <a href="{{ .RelPermalink }}" class="inline-flex items-start gap-4 py-2">
       <img
         loading="lazy"
-        class="h-8 w-8 sm:h-12 sm:w-12 md:h-16 md:w-16"
+        class="h-8 w-8"
         src="{{ with .Params.thumbnail }}{{ . }}{{ else }} /img/no-image.svg {{end}}"
         alt="{{ .Title }}"
         decoding="async"
         rel="image"
       />
-      <div class="sm:ml-4">
-        <h3 class="text-base font-light sm:text-lg md:text-xl">
-          {{ .LinkTitle | truncate 80 "..."}}
-        </h3>
+      <div>
+        <h3 class="text-lg font-light">{{ .LinkTitle | truncate 80 "..."}}</h3>
       </div>
     </a>
   </ul>
-
   {{ end }}
 </div>
 <!-- Post end -->
