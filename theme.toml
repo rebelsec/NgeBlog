@@ -1,6 +1,6 @@
 name = 'NgeBlog'
 license = 'MIT'
-licenselink = 'https://github.com/NgeBlog/blob/master/LICENSE'
+licenselink = 'https://github.com/rebelsec/NgeBlog/blob/main/LICENSE'
 description = 'a Minimalist , clean, and elegant blog theme for Hugo.'
 
 # The home page of the theme, where the source can be found
