@@ -13,12 +13,6 @@ demosite = 'https://www.rebelsec.id/'
 tags = ['blog', 'dark', 'light', 'minimal', 'responsive', 'personal']
 features = ['Optimized SEO', 'Desktop/Mobile Responsive layout', 'Light/Dark mode', 'Pagination supported', 'Easy-to-use and self-expanding table of contents', 'Tailwind CSS']
 
-# If the theme has multiple authors
-authors = [
-  {name = 'Rebelsec', homepage = 'https://www.rebelsec.id/'},
-  {name = 'Galatia Sijabat', homepage = 'https://www.linkedin.com/in/galatiasijabat/'},
-]
-
 # If the theme has a single author
 [author]
   name = 'Galatia Sijabat'
