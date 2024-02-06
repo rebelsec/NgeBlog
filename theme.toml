@@ -1,31 +1,25 @@
-name = 'Theme name'
+name = 'NgeBlog'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/NgeBlog/blob/master/LICENSE'
+description = 'a Minimalist , clean, and elegant blog theme for Hugo.'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = 'https://github.com/rebelsec/NgeBlog'
 
 # If you have a running demo of the theme
-demosite = 'https://owner.github.io/repo'
+demosite = 'https://www.rebelsec.id/'
 
 # Taxonomy terms
-tags = ['blog', 'company']
-features = ['some', 'awesome', 'features']
+tags = ['blog', 'dark', 'light', 'minimal', 'responsive', 'personal']
+features = ['Optimized SEO', 'Desktop/Mobile Responsive layout', 'Light/Dark mode', 'Pagination supported', 'Easy-to-use and self-expanding table of contents', 'Tailwind CSS']
 
 # If the theme has multiple authors
 authors = [
-  {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
+  {name = 'Rebelsec', homepage = 'https://www.rebelsec.id/'},
+  {name = 'Galatia Sijabat', homepage = 'https://www.linkedin.com/in/galatiasijabat/'},
 ]
 
 # If the theme has a single author
 [author]
-  name = 'Your name'
-  homepage = 'Your website'
-
-# If porting an existing theme
-[original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
+  name = 'Galatia Sijabat'
+  homepage = 'https://www.rebelsec.id/'
