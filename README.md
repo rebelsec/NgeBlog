@@ -2,7 +2,7 @@
 
 > **NgeBlog** is a **Minimalist** , **clean**, and **elegant** blog theme for [Hugo](https://gohugo.io/).
 
-![Hugo Theme NgeBlog](https://github.com/rebelsec/NgeBlog/raw/main/images/Devices-Preview.png)
+![Hugo Theme NgeBlog](https://github.com/NgeBlog/raw/main/images/Devices-Preview.png)
 
 ## Demo Site
 
@@ -49,7 +49,7 @@ In short,
 - Easy-to-use and self-expanding **table of contents**
 - Tailwind CSS
 
-## [Documentation]()
+## Documentation
 
 ## Setup
 
@@ -58,31 +58,38 @@ In short,
 
 To create a new Hugo site with this theme, run the following command:
 
-    hugo new site myblog
+```
+hugo new site myblog
+```
 
 Then, clone this repository into the `themes` directory of your new site:
 
-    cd myblog
-    git clone
-    hugo-blog-awesome
+```
+cd myblog
+git clone https://github.com/NgeBlog.git themes/NgeBlog
+```
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
-    hugo server --themesDir ../..
+```
+hugo server --themesDir ../..
+```
 
 ## Usage
 
-To use this theme, set the `theme` variable in your site's `config.toml` to `hugo-blog-awesome`:
+To use this theme, set the `theme` variable in your site's `config.toml` to `NgeBlog`:
 
-    theme = "ngeblog"
+```
+theme = "NgeBlog"
+```
 
 ## Questions, ideas, bugs, pull requests
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/rebelsec/NgeBlog/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/NgeBlog/issues).
 
 ## License
 
-LoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/rebelsec/NgeBlog/blob/master/LICENSE) for details.
+LoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/NgeBlog/blob/master/LICENSE) for details.
 
 ## Special Thanks
 
@@ -98,4 +105,4 @@ Thanks to the authors of following resources included in the theme:
 
 Thanks! ❤️
 
-[![Stargazers over time](https://starchart.cc/rebelsec/NgeBlog.svg?variant=adaptive)](https://starchart.cc/rebelsec/NgeBlog)
+[![Stargazers over time](https://starchart.cc/NgeBlog.svg?variant=adaptive)](https://starchart.cc/NgeBlog)
