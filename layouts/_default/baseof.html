@@ -7,6 +7,8 @@
     {{ partial "head.html" . }}
     <!-- CSS -->
     {{ partialCached "head/css.html" . }}
+    <!-- Using KaTex -->
+    {{ if .Param "math" }} {{ partialCached "math.html" . }} {{ end }}
   </head>
 
   <body
