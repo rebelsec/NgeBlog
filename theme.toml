@@ -7,7 +7,7 @@ description = 'a Minimalist , clean, and elegant blog theme for Hugo.'
 homepage = 'https://github.com/rebelsec/NgeBlog'
 
 # If you have a running demo of the theme
-demosite = 'https://www.rebelsec.id/'
+demosite = 'https:///www.rebelsec.github.io/'
 
 # Taxonomy terms
 tags = ['blog', 'dark', 'light', 'minimal', 'responsive', 'personal']
